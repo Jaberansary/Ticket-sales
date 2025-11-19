@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --color-white: #FFFFFF;
+  --color-white-secondary: #F5F5F5;
+  --color-dark: #000000;
+  --color-dark-secondary: #424242;
+}
