@@ -1,16 +1,15 @@
-import './App.css'
-import CmNavBar from './components/CmNavbar'
-
+import "./App.css";
+import CmHero from "./components/CmHero";
+import CmNavBar from "./components/CmNavbar";
 function App() {
-
   return (
     <>
-<div className='mx-[108px]'>
-  <CmNavBar/>
-</div>
-
+      <div className="mx-[108px]">
+        <CmNavBar />
+        <CmHero />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
