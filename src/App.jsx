@@ -5,13 +5,13 @@ import NewTours from "./components/NewTours";
 function App() {
   return (
     <>
-      <div className="mx-[108px] flex flex-col gap-10">
+      <div className="mx-auto max-w-[1223px] flex flex-col gap-10">
         <CmNavBar />
         <CmHero />
         <NewTours />
       </div>
     </>
-  )
+  );
 }
 
 export default App;
