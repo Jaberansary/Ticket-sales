@@ -2,9 +2,8 @@ import { useState } from "react";
 import { MdOutlineAirplanemodeActive, MdOutlineTrain } from "react-icons/md";
 
 const TicketType = () => {
-  const [selectedLeftMenu1, setSelectedLeftMenu1] = useState(""); // داخلی / خارجی
-  const [selectedLeftMenu2, setSelectedLeftMenu2] = useState(""); // رفت / رفت و برگشت
-
+  const [selectedLeftMenu1, setSelectedLeftMenu1] = useState("");
+  const [selectedLeftMenu2, setSelectedLeftMenu2] = useState("");
   return (
     <div className="absolute bottom-20 left-10 flex gap-4">
       <div className="w-[192px] h-[40px] bg-[var(--color-white-secondary)] rounded-[14px] flex items-center gap-2">
