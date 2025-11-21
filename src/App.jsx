@@ -2,10 +2,11 @@ import "./App.css";
 import Articles from "./components/Articles";
 import CmHero from "./components/CmHero";
 import CmNavBar from "./components/CmNavbar";
-import AboutSection from "./components/AboutSection"
+import AboutSection from "./components/AboutSection";
 import NewTours from "./components/NewTours";
 import FaqSection from "./components/FaqSection";
-import ContactUs from "./components/ContactUs"
+import ContactUs from "./components/ContactUs";
+import NewsletterSection from "./components/NewsletterSection";
 function App() {
   return (
     <>
@@ -13,10 +14,11 @@ function App() {
         <CmNavBar />
         <CmHero />
         <NewTours />
-        <AboutSection/>
+        <AboutSection />
         <Articles />
-        <FaqSection/>
-        <ContactUs/>
+        <FaqSection />
+        <ContactUs />
+        <NewsletterSection />
       </div>
     </>
   );
