@@ -1,4 +1,4 @@
-import Hero from "../assets/images/hero.jpg";
+import Hero from "../assets/images/Hero.jpg";
 import HeroSearchBar from "./HeroSearchBar";
 import ReserveType from "./ReserveType";
 import TicketType from "./TicketType";
