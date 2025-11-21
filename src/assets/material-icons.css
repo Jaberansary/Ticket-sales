@@ -1,0 +1,61 @@
+/* filled */
+/* @import '@material-design-icons/font/filled.css'; */
+
+
+/* Outlined */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./MaterialSymbolsOutlined-Regular.ttf') format('truetype');
+  font-display: block;
+}
+
+/* Rounded */
+@font-face {
+  font-family: 'Material Symbols Rounded';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./MaterialSymbolsRounded-Regular.ttf') format('truetype');
+  font-display: block;
+}
+
+/* Sharp */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./MaterialSymbolsSharp-Regular.ttf') format('truetype');
+  font-display: block;
+}
+
+/* Common styles */
+.material-symbols {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  text-transform: none;
+  white-space: nowrap;
+  direction: ltr;
+  letter-spacing: normal;
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+}
+
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded';
+}
+
+.material-symbols-sharp {
+  font-family: 'Material Symbols Sharp';
+}
+

@@ -1,7 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('./assets/fonts/material-icons.css');
 
+@font-face {
+  font-family: 'IRANYekan';
+   src:url('/fonts/IranYekan/IRANYekanRegularFaNum.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'IRANYekan';
+  src:url('/fonts/IranYekan/IRANYekanBoldFaNum.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
