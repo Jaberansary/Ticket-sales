@@ -2,9 +2,9 @@ import tourImg1 from "../assets/images/tourImg-1.jpg";
 import tourImg2 from "../assets/images/tourImg-2.jpg";
 import tourImg3 from "../assets/images/tourImg-3.jpg";
 import tourImg4 from "../assets/images/tourImg-4.jpg";
-
-import { FaArrowLeft } from "react-icons/fa6";
+import arrowLeft from "../assets/svg/arrow-left.svg";
 import TourCard from "./TourCard";
+
 const NewTours = () => {
   const tours = [
     { id: 1, image: tourImg1 },
@@ -34,7 +34,7 @@ const NewTours = () => {
         <div className="more-button flex-shrink-0">
           <button className="flex bg-black rounded-[14px] text-white w-[184px] h-10 items-center justify-center gap-2">
             <span>مشاهده بیشتر</span>
-            <FaArrowLeft />
+            <img src={arrowLeft} className="w-5 h-5 invert" />
           </button>
         </div>
       </div>

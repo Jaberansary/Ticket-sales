@@ -1,5 +1,5 @@
-import { MdOutlineLogin } from "react-icons/md";
 import Logo from "../assets/images/Logo.png";
+import login from "../assets/svg/login.svg";
 
 export default function Navbar() {
   return (
@@ -20,8 +20,8 @@ export default function Navbar() {
         </div>
 
         <button className="bg-[var(--color-dark)] text-[var(--color-white)] px-5 py-2 rounded-[14px] flex items-center justify-end gap-1 w-[162px] h-10">
-          <MdOutlineLogin className="align-middle text-xl" />
-          <span className="align-middle">ورود / ثبت نام</span>
+          <img src={login} className="w-5 h-5 invert" />
+          <span className="align-middle text-sm">ورود / ثبت نام</span>
         </button>
       </div>
     </nav>

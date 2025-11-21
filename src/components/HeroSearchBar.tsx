@@ -1,6 +1,10 @@
-import { BiTransferAlt } from "react-icons/bi";
-import { CiCalendar, CiLocationOn, CiUser } from "react-icons/ci";
-import { FiChevronDown, FiSearch } from "react-icons/fi";
+
+import calendar from "../assets/svg/calendar-2.svg";
+import location from "../assets/svg/location.svg";
+import arrowDown from "../assets/svg/arrow-down.svg";
+import arrangeCircle from "../assets/svg/arrange-circle-2.svg";
+import user from "../assets/svg/user.svg";
+import search from "../assets/svg/search-normal.svg";
 
 const HeroSearchBar = () => {
   return (
@@ -27,35 +31,35 @@ const HeroSearchBar = () => {
         >
           <div className="w-[150px] flex items-center justify-between px-3 py-4 bg-[var(--color-white)] rounded-[14px]">
             <div className="flex items-center gap-2">
-              <CiCalendar className="text-base" />
+              <img src={calendar} className="w-4 h-4" />
               <span className="text-[#999999] text-[12px]">تاریخ رفت</span>
             </div>
-            <FiChevronDown className="text-[12px]" />
+            <img src={arrowDown} className="w-4 h-4" />
           </div>
 
           <div className="w-[158px] flex items-center justify-between px-3 py-4 bg-[var(--color-white)] rounded-[14px]">
             <div className="flex items-center gap-2">
-              <CiCalendar className="text-base" />
+              <img src={calendar} className="w-4 h-4" />
               <span className="text-[#999999] text-[12px]">تاریخ برگشت</span>
             </div>
-            <FiChevronDown className="text-[12px] text-[#999999]" />
+            <img src={arrowDown} className="w-4 h-4" />
           </div>
 
           <div className="relative flex items-center gap-2">
             <div className="w-[190px] flex items-center justify-between px-3 py-4 bg-[var(--color-white)] rounded-[14px]">
               <div className="flex items-center gap-2">
-                <CiLocationOn className="text-base" />
+                <img src={location} className="w-4 h-4" />
                 <span className="text-[#999999] text-[12px]">مبدا</span>
               </div>
-              <FiChevronDown className="text-[12px]" />
+              <img src={arrowDown} className="w-4 h-4" />
             </div>
 
-            <div className="w-[190px] flex items-center justify-between px-3 py-4 bg-white rounded-[14px] shadow-sm ">
+            <div className="w-[190px] flex items-center justify-between px-3 py-4 bg-[var(--color-white)] rounded-[14px] shadow-sm ">
               <div className="flex items-center gap-2">
-                <CiLocationOn className="text-base" />
+                <img src={location} className="w-4 h-4" />
                 <span className="text-[#999999] text-[12px]">مقصد</span>
               </div>
-              <FiChevronDown className="text-[12px]" />
+                <img src={arrowDown} className="w-4 h-4"/>
             </div>
             <button
               className="
@@ -65,16 +69,16 @@ const HeroSearchBar = () => {
 
       w-9 h-9 flex items-center justify-center"
             >
-              <BiTransferAlt className="text-[14px]" />
+              <img src={arrangeCircle} className="w-4 h-4" />
             </button>
           </div>
 
           <div className="w-[130px] flex items-center justify-between px-3 py-4 bg-[var(--color-white)] rounded-[14px]">
             <div className="flex items-center gap-2">
-              <CiUser className="text-base" />
+              <img src={user} className="w-4 h-4" />
               <span className="text-[#999999] text-[12px]">تعداد مسافر</span>
             </div>
-            <FiChevronDown className="text-[12px]" />
+            <img src={arrowDown} className="w-4 h-4" />
           </div>
         </div>
 
@@ -87,7 +91,7 @@ const HeroSearchBar = () => {
           "
         >
           <span className="text-sm text-[12px] font-extrabold">جستجو</span>
-          <FiSearch className="text-sm" />
+           <img src={search} className="w-4 h-4 invert" />
         </button>
       </div>
     </div>

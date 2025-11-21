@@ -1,6 +1,5 @@
 import FlowChart from "../assets/svg/FlowChart.svg"
 
-
  export default function AbuotUsFlowChart() {
   return (
     <div className="w-full max-w-xl">

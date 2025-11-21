@@ -1,6 +1,4 @@
-// AboutSectionRight.tsx
 import React from "react";
-
 const AboutUs: React.FC = () => {
   return (
     <section className="w-full flex justify-start">

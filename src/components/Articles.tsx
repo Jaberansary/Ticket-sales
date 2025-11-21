@@ -3,8 +3,8 @@ import article2 from "../assets/images/article-2.jpg";
 import moreArticle1 from "../assets/images/more-article-1.jpg";
 import moreArticle2 from "../assets/images/more-article-2.jpg";
 import moreArticle3 from "../assets/images/more-article-3.jpg";
+import arrowLeft from "../assets/svg/arrow-left.svg";
 
-import { FaArrowLeft } from "react-icons/fa6";
 import TourCard from "./TourCard";
 import ArticleCard from "./ArticleCard";
 import MoreArticleCard from "./MoreArticleCard";
@@ -38,7 +38,7 @@ const Articles = () => {
         <div className="more-button flex-shrink-0">
           <button className="flex bg-black rounded-[14px] text-white w-[184px] h-10 items-center justify-center gap-2">
             <span>مشاهده بیشتر</span>
-            <FaArrowLeft />
+            <img src={arrowLeft} className="w-5 h-5 invert" />
           </button>
         </div>
       </div>

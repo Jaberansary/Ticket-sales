@@ -1,7 +1,6 @@
-// TourCard.jsx
 import { FaArrowLeft } from "react-icons/fa6";
-import { LuCalendarDays } from "react-icons/lu";
 import tourLayout from "../assets/images/Rectangle4448.svg";
+import calendar from "../assets/svg/calendar-2.svg";
 
 const TourCard = ({ image }) => {
   return (
@@ -15,7 +14,7 @@ const TourCard = ({ image }) => {
       />
 
       <div className="date text-[10px] bg-stone-300 w-[88px] m-2.5 rounded-[15px] h-6 flex items-center justify-around relative">
-        <LuCalendarDays size={17} />
+         <img src={calendar} className="w-4 h-4" />
         <p>15 تا 20 خرداد</p>
       </div>
 

@@ -1,9 +1,8 @@
 import { useState } from "react";
 import FaqImage from "../assets/images/FaqImage.png";
-import { FaArrowLeft } from "react-icons/fa6";
-import { MdOutlineAdd } from "react-icons/md";
-import { LuMinus } from "react-icons/lu";
-
+import arrowLeft from "../assets/svg/arrow-left.svg";
+import add from "../assets/svg/add.svg";
+import minus from "../assets/svg/minus.svg";
 const faqs = [
   {
     id: 1,
@@ -67,7 +66,7 @@ export default function FaqSection() {
           <div className="more-button flex-shrink-0">
             <button className="flex bg-black rounded-[14px] text-white w-[184px] h-10 items-center justify-center gap-2">
               <span>مشاهده بیشتر</span>
-              <FaArrowLeft />
+              <img src={arrowLeft} className="w-5 h-5 invert" />
             </button>
           </div>
         </div>
@@ -91,15 +90,17 @@ export default function FaqSection() {
                   <span className="text-sm font-semibold">{item.question}</span>
                   <span className="text-xl leading-none">
                     {isActive ? (
-                      <LuMinus className="text-base" />
+                      <img src={minus} className="w-5 h-5 invert" />
                     ) : (
-                      <MdOutlineAdd className="text-base" />
+                      <img src={add} className="w-5 h-5" />
                     )}
                   </span>
                 </div>
                 {isActive && (
                   <div className="mt-3 pt-3 border-t border-[#373737]">
-                    <p className="text-xs leading-relaxed font-normal">{item.answer}</p>
+                    <p className="text-xs leading-relaxed font-normal">
+                      {item.answer}
+                    </p>
                   </div>
                 )}
               </button>

@@ -1,6 +1,6 @@
-//ContactUs
-
-import { LuMail, LuMapPin, LuPhone } from "react-icons/lu";
+import call from "../assets/svg/call.svg";
+import sms from "../assets/svg/sms-tracking.svg";
+import location from "../assets/svg/location.svg";
 
 const ContactUs = () => {
   return (
@@ -22,28 +22,36 @@ const ContactUs = () => {
         <div className="icons flex flex-col gap-6">
           <div className="icon-item flex items-center gap-2.5">
             <div className="icon flex bg-black size-[52px] rounded-2xl items-center justify-center">
-              <LuMapPin size={36} className="text-white" />
+              <img
+                src={location}
+                className="w-9 h-9 invert"
+              />
             </div>
             <p className="description">تهران، جهان کودک</p>
           </div>
 
           <div className="icon-item flex items-center gap-2.5">
             <div className="icon flex bg-black size-[52px] rounded-2xl items-center justify-center">
-              <LuMail size={36} className="text-white" />
+             <img
+                src={sms}
+                className="w-9 h-9 invert"
+              />
             </div>
             <p className="description">johndoe@gmail.com</p>
           </div>
 
           <div className="icon-item flex items-center gap-2.5">
             <div className="icon flex bg-black size-[52px] rounded-2xl items-center justify-center">
-              <LuPhone size={36} className="text-white" />
+              <img
+                src={call}
+                className="w-9 h-9 invert"
+              />
             </div>
             <p className="description">021-12345678</p>
           </div>
         </div>
       </div>
       <div className="left-side flex w-full max-w-[808px] ">
-        {/* Form */}
         <div className="flex-1 bg-neutral-100 rounded-3xl p-5">
           <form className="h-full flex flex-col justify-between">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -83,18 +91,13 @@ const ContactUs = () => {
                 />
               </div>
             </div>
-
-            {/* Description */}
             <div className="mb-5">
               <label className="block text-sm   mb-2">توضیحات:</label>
               <textarea
-                // rows={3}
                 placeholder="وارد کنید..."
                 className="w-full h-[76px] rounded-[21px] bg-white px-4 py-3 text-sm outline-none border border-transparent focus:border-black/10 resize-none placeholder:text-stone-300"
               />
             </div>
-
-            {/* Submit button*/}
             <div className="flex justify-end">
               <button
                 type="submit"

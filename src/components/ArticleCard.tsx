@@ -1,5 +1,4 @@
-import { FaArrowLeft } from "react-icons/fa6";
-
+import arrowLeft from "../assets/svg/arrow-left.svg";
 const ArticleCard = ({ image }) => {
   return (
     <div className="article-card w-[392px] flex flex-col p-4 bg-neutral-100 rounded-[24px] gap-4">
@@ -23,7 +22,7 @@ const ArticleCard = ({ image }) => {
         <p className="text-neutral-500">24 خرداد 1403</p>
         <button className="flex bg-white rounded-[14px]  w-[133px] h-10 items-center justify-center gap-2">
           <span>مشاهده بیشتر</span>
-          <FaArrowLeft />
+           <img src={arrowLeft} className="w-5 h-5" />
         </button>
       </div>
       </div>

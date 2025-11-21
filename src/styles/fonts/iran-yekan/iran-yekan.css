@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'IRANYekan';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./IRANYekanRegularFaNum.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANYekan';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./IRANYekanBoldFaNum.ttf') format('truetype');
+    font-display: swap;
+}
