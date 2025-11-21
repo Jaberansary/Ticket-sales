@@ -5,6 +5,7 @@ import CmNavBar from "./components/CmNavbar";
 import AboutSection from "./components/AboutSection"
 import NewTours from "./components/NewTours";
 import FaqSection from "./components/FaqSection";
+import ContactUs from "./components/ContactUs"
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <AboutSection/>
         <Articles />
         <FaqSection/>
+        <ContactUs/>
       </div>
     </>
   );
