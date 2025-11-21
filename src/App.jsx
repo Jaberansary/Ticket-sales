@@ -6,7 +6,8 @@ import AboutSection from "./components/AboutSection";
 import NewTours from "./components/NewTours";
 import FaqSection from "./components/FaqSection";
 import ContactUs from "./components/ContactUs";
-import NewsletterSection from "./components/NewsletterSection";
+import DownloadBanner from "./components/DownloadBanner";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -18,7 +19,8 @@ function App() {
         <Articles />
         <FaqSection />
         <ContactUs />
-        <NewsletterSection />
+        <DownloadBanner />
+        <Footer />
       </div>
     </>
   );
